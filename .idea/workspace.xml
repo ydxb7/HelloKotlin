@@ -4,13 +4,9 @@
     <list default="true" id="8916965c-2fd7-4d66-bdb4-853674454afc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/AquariumKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/AquariumKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/FishStoreWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/LakeWater.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/TapWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/TapWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/TapWaterCleaner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/TapWaterCleaner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/WaterSupply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/WaterSupply.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" afterDir="false" />
     </list>
@@ -47,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/Aquarium.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="31">
               <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
@@ -74,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/Extension.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="304">
               <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="61" />
             </state>
           </provider>
@@ -83,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="159">
+              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -129,6 +125,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rep</find>
+      <find>LakeWater</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -362,17 +359,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aquarium/Aquarium.kt">
+    <entry file="file://$PROJECT_DIR$/src/Aquarium/Decorations/Decorations.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aquarium/collections.kt">
+    <entry file="file://$PROJECT_DIR$/src/Aquarium/Extension.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="304">
+          <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -383,10 +380,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aquarium/Extension.kt">
+    <entry file="file://$PROJECT_DIR$/src/Aquarium/collections.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="61" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aquarium/Aquarium.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -404,17 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aquarium/Decorations/Decorations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="159">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="89" />
         </state>
       </provider>
     </entry>

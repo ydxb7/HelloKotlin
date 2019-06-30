@@ -6,9 +6,29 @@ fun main(args: Array<String>) {
     aquarium.addWater(cleaner)
 
     addItemTo(aquarium)
+
+    isWaterClean<TapWater>(aquarium)
+    isWaterClean(aquarium)
+
+    aquarium.hasWaterSupplyOfType<TapWater>() // true
+    println(aquarium.hasWaterSupplyOfType<TapWater>()) // true
+
+    aquarium.waterSupply.isOfType<LakeWater>() // false
+    println(aquarium.waterSupply.isOfType<LakeWater>()) // false
+}
+inline fun <reified R: WaterSupply> Aquarium<*>.hasWaterSupplyOfType() = waterSupply is R
+
+inline fun <reified T: WaterSupply> WaterSupply.isOfType() = this is T
+
+fun <T: WaterSupply> isWaterClean(aquarium: Aquarium<T>){
+    println("aquarium water is clean: ${aquarium.waterSupply.needsProcessed}")
 }
 
-
+class LakeWater : WaterSupply(true) {
+    fun filter() {
+        needsProcessed = false
+    }
+}
 
 open class WaterSupply(var needsProcessed: Boolean)
 
@@ -27,9 +47,7 @@ class Aquarium<out T: WaterSupply>(val waterSupply: T){
         println("adding water from $waterSupply")
     }
 
-//    fun test(a: T){
-//
-//    }
+
 }
 
 interface Cleaner<in T: WaterSupply>{
