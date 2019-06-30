@@ -1,4 +1,14 @@
 package Aquarium.generics
+fun main(args: Array<String>) {
+
+    val aquarium = Aquarium(TapWater())
+    val cleaner = TapWaterCleaner()
+    aquarium.addWater(cleaner)
+
+    addItemTo(aquarium)
+}
+
+
 
 open class WaterSupply(var needsProcessed: Boolean)
 
@@ -8,30 +18,40 @@ class TapWater : WaterSupply(true) {
     }
 }
 
-class FishStoreWater : WaterSupply(false)
 
-class LakeWater : WaterSupply(true) {
-    fun filter() {
-        needsProcessed = false
-    }
-}
-
-class Aquarium1<T>(val waterSupply: T)
-class Aquarium2<T: Any?>(val waterSupply: T)
-class Aquarium3<T: Any>(val waterSupply: T)
-class Aquarium<T: WaterSupply>(val waterSupply: T){
-    fun addWater(){
-        check(!waterSupply.needsProcessed){"water supply needs processed"}
+class Aquarium<out T: WaterSupply>(val waterSupply: T){
+    fun addWater(cleaner: Cleaner<T>){
+        if(waterSupply.needsProcessed){
+            cleaner.clean(waterSupply)
+        }
         println("adding water from $waterSupply")
     }
+
+//    fun test(a: T){
+//
+//    }
+}
+
+interface Cleaner<in T: WaterSupply>{
+    fun clean(waterSupply: T)
+}
+
+class TapWaterCleaner: Cleaner<TapWater>{
+    override fun clean(waterSupply: TapWater) {
+        waterSupply.addhemicalCleaners()
+    }
 }
 
 
-fun main(args: Array<String>) {
+//class FishStoreWater : WaterSupply(false)
+//
+//class LakeWater : WaterSupply(true) {
+//    fun filter() {
+//        needsProcessed = false
+//    }
+//}
 
-    val aquarium = Aquarium(TapWater())
-//    aquarium.waterSupply.addhemicalCleaners()
-    println(aquarium.waterSupply.needsProcessed)
-    aquarium.addWater()
+fun addItemTo(aquarium: Aquarium<WaterSupply>) = println("item added")
 
-}
+
+

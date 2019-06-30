@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8916965c-2fd7-4d66-bdb4-853674454afc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aquarium/Generic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/Aquarium3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/AquariumKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/AquariumKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/FishStoreWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/LakeWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/TapWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/TapWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/WaterSupply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/generics/WaterSupply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="435">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="31" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -318,7 +325,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2510204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14795919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        <state relative-caret-position="435">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
