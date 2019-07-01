@@ -2,6 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8916965c-2fd7-4d66-bdb4-853674454afc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aquarium/inlines.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt$dirtyProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt$dirtyProcessor$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt$dirtyProcessor$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt$eagerExample$filtered$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt$eagerExample$lazyMap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt$waterFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/AMSKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Aquarium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/AquariumKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/AquariumPlant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/CollectionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/ConstantsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/Decorations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/Decorations2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/DecorationsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/MobyDickWhale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/MyClass$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/SeaLion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/Seal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Decorations/Walrus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/ExtensionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Fish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/FishAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/FishColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/GoldColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/InheritanceKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Plecostomus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Plecostomus1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/Plecostomus2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/PrintingFishAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/Aquarium/TowerTank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/META-INF/Hello Kotlin.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aquarium/Lambda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/Lambda.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/Aquarium/InteropFish.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -68,16 +105,25 @@
         <entry file="file://$PROJECT_DIR$/src/Aquarium/Labels.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aquarium/Lambda.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="58" lean-forward="true" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Aquarium/Lambda.kt">
+        <entry file="file://$PROJECT_DIR$/src/Aquarium/inlines.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="315">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -137,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/Aquarium/Annotations.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Labels.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Lambda.kt" />
+        <option value="$PROJECT_DIR$/src/Aquarium/inlines.kt" />
       </list>
     </option>
   </component>
@@ -205,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Aquarium.LambdaKt">
+  <component name="RunManager" selected="Kotlin.Aquarium.InlinesKt">
     <configuration name="Aquarium.AnnotationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloKotlin" />
       <option name="VM_PARAMETERS" />
@@ -219,19 +266,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aquarium.CollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="HelloKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Aquarium.CollectionsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Aquarium.ExtensionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloKotlin" />
       <option name="VM_PARAMETERS" />
@@ -240,6 +274,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Aquarium.ExtensionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aquarium.InlinesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="HelloKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Aquarium.InlinesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -272,19 +319,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.Aquarium.CollectionsKt" />
       <item itemvalue="Kotlin.Aquarium.ExtensionKt" />
       <item itemvalue="Kotlin.Aquarium.generics.AquariumKt" />
       <item itemvalue="Kotlin.Aquarium.AnnotationsKt" />
       <item itemvalue="Kotlin.Aquarium.LambdaKt" />
+      <item itemvalue="Kotlin.Aquarium.InlinesKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Aquarium.InlinesKt" />
         <item itemvalue="Kotlin.Aquarium.LambdaKt" />
         <item itemvalue="Kotlin.Aquarium.AnnotationsKt" />
         <item itemvalue="Kotlin.Aquarium.generics.AquariumKt" />
         <item itemvalue="Kotlin.Aquarium.ExtensionKt" />
-        <item itemvalue="Kotlin.Aquarium.CollectionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +352,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,7 +361,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47244897" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47244897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,17 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aquarium/Labels.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aquarium/InteropFish.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -445,10 +485,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aquarium/Labels.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aquarium/Lambda.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state relative-caret-position="315">
+          <caret line="21" column="58" lean-forward="true" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aquarium/inlines.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
